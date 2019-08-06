@@ -1,0 +1,181 @@
+
+html {
+  position: relative;
+}
+
+body {
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  
+  background-color: #F5B4B3;
+  height: 60px;
+  font-size: 1.5rem;
+}
+.container{
+  padding: 0px 50px;
+}
+
+.top_menu li {
+  float: left;
+  width: auto;
+}
+
+.top_menu li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.top_menu li a:hover {
+  text-decoration: underline;
+   opacity: 0.6;
+}
+ul.top_menu {
+  float: right;
+}
+
+.logo_image {
+  width:100px;
+  float: left;
+  margin: 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.point{
+  background-color: #FCECEC;
+}
+.point a{
+  color: #4D4D4D;
+}
+
+.top_img{
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+.side_menu{
+  width: 400px;
+
+}
+.side_menu li {
+  background-color: #F5B4B3;
+  height: 4rem;
+  margin-bottom: 8px;
+
+}
+
+.side_menu li a:hover {
+  opacity: 0.5;
+}
+
+.side_menu li a {
+  font-size:2rem;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+}
+.side_menu .point {
+  background-color: #FCECEC;
+}
+.side_menu .point a {
+  color: #4D4D4D;
+}
+ .side_menu .cont a{
+  background-color:rgb(223, 181, 180);
+  color: black
+}
+.content3{
+  margin-left: 430px;
+  bottom: 250px;
+  width: 660px;
+  position: relative;
+  height: 14rem;
+}
+.content3 form{
+  position: absolute ;
+  margin-left:20px;
+}
+.content3 form table tr{
+  position: relative;
+ width: 100%;
+ height: 3rem;
+ font-size:1.5rem;
+}
+.content3 form table tr th{
+  position: relative;
+ width: 150px;
+}
+.content3 form table tr td input{
+  position: relative;
+  width: 480px;
+  font-size:1rem;
+}
+#radio{
+  position: absolute;
+  top: 160px;
+  display: inline;
+}
+#ques{
+  position: relative;
+  top: 190px;
+  margin-left: 160px;
+  height: 25px;
+width: 480px;
+
+}
+.button{
+  background-color: blue;
+border: none;
+height: 30px;
+width: 100px;
+position: absolute;
+
+}
+.button:hover{
+ opacity: 0.5;
+
+  
+}
+/* Added */
+
+.footer{
+  width: 100%;
+  height: 80px;
+  position: relative;
+  bottom: 150px;
+  background-color: #4D4D4D;
+  display: table;
+  padding: 0px;
+
+}
+
+.footer p {
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
