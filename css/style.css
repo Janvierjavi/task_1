@@ -110,10 +110,16 @@ ul.top_menu {
   width: 660px;
   position: relative;
   height: 14rem;
+  padding: 30px;
 }
 .content3 form{
   position: absolute ;
   margin-left:20px;
+  width: 100%;
+}
+.content3 form table{
+  position: relative;
+  width: 100%;
 }
 .content3 form table tr{
   position: relative;
@@ -123,11 +129,11 @@ ul.top_menu {
 }
 .content3 form table tr th{
  margin-left:10px; 
- width: 150px;
+ width: 130px;
 }
 .content3 form table tr td input{
   position: relative;
-  width: 480px;
+  width: 550px;
   font-size:1rem;
 }
 #radio{
@@ -138,9 +144,9 @@ ul.top_menu {
 #ques{
   position: relative;
   top: 190px;
-  margin-left: 160px;
+  margin-left: 140px;
   height: 25px;
-width: 480px;
+width: 550px;
 
 }
 .button{
